@@ -127,7 +127,7 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
                                                                      input_image: image,
                                                                      learning_rate: 1e-3,
                                                                      keep_prob: 0.7})
-        print(loss)
+            print(loss)
 tests.test_train_nn(train_nn)
 
 
